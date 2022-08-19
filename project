@@ -1,0 +1,20 @@
+problem:
+	I need to check my email and/or another site for an awaited message.
+
+want to use as:
+	cli - e.g. watch-site https://email.*.com, watch-site https://status.*.com
+
+project:
+	Watches site, on change of something -> notify
+
+goals:
+	cookies:
+		use cookies
+		figure out the UI for a cookie renew
+	cli:
+		maintain active watch sessions in local fs
+		specify time between requests e.g. per 2 hours, per 3 hours....
+	change:
+		figure out how to define change in a site for a user.
+	structure:
+		split project into modules
